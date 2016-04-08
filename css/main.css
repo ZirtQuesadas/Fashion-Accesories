@@ -1,0 +1,134 @@
+.bg-gris {
+  background-color: #EBEBED; }
+
+/****************HEADER****************/
+header.bg-gris p {
+  padding-top: 13px; }
+
+header.container {
+  margin-top: 27px;
+  margin-bottom: 13px; }
+
+header.container .clock {
+  margin-top: 13px; }
+
+header.bg-gris li {
+  padding: 7px;
+  margin: 0 7px;
+  margin-bottom: -10px;
+  background-color: #EA8383;
+  color: #000;
+  height: 100%;
+  font-weight: bold; }
+
+header.bg-gris .active {
+  padding: 7px;
+  margin: 0 7px;
+  margin-bottom: -10px;
+  background-color: #EA8383;
+  color: #fff;
+  height: 100%; }
+
+header, section {
+  font-family: Lato;
+  margin-top: 27px; }
+
+section {
+  min-height: 330px; }
+
+ul {
+  list-style: none; }
+
+li {
+  display: inline-block;
+  padding-left: 7px; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%; }
+
+.slide-clients {
+  background-size: auto;
+  background-image: url(../images/client-bg.jpg);
+  margin-top: 13px;
+  position: relative; }
+
+.fixed-position {
+  position: relative; }
+
+section.latest-bestseller-sale .price {
+  color: #EA8383; }
+
+section.latest-bestseller-sale .price > span {
+  color: #333;
+  text-decoration: line-through; }
+
+/*******************FOOTER****************/
+footer.footer {
+  background-color: #333;
+  padding-top: 13px;
+  padding-bottom: 13px; }
+
+footer.footer p {
+  color: #fff; }
+
+footer.footer p > span {
+  color: #EA8383; }
+
+footer i.fa {
+  margin-right: 13px; }
+
+footer a {
+  text-decoration: none;
+  color: inherit !important; }
+
+/***********CONTACT US************/
+#contact-us {
+  position: relative; }
+
+#contact-us img.header-image {
+  max-width: 100%;
+  height: 600px; }
+
+#contact-us .header-image {
+  height: 500px; }
+
+#contact-us .header-image h1, p {
+  min-width: 100%;
+  height: 50%;
+  position: float;
+  margin-top: -200px;
+  color: #333;
+  shadow-text: 3px 3px #000; }
+
+#contact-us .form-control {
+  background-color: #EBEBED;
+  position: relative;
+  width: 45%;
+  margin-right: 27px; }
+
+#contact-us textarea {
+  background-color: #EBEBED;
+  position: absolute;
+  width: 95% !important; }
+
+#contact-us input.col-sm-6 {
+  padding-left: 13px !important; }
+
+#contact-us button {
+  float: right;
+  color: #fff !important;
+  background-color: #333 !important;
+  margin-right: 5%; }
+
+#contact-us .contact-us {
+  color: #fff;
+  background-color: #EA8383 !important;
+  z-index: 100000;
+  width: 400px; }
+
+/******** /FIN CONTACT-US*******/
+
+/*# sourceMappingURL=main.css.map */

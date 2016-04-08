@@ -1,0 +1,161 @@
+$color: #EA8383;
+$gris: #EBEBED;
+$gris-rata: #333;
+$thin: 3px;
+$border-wide: 5px;
+$xs: 7px;
+$sm: 13px;
+$md: 27px;
+$lg: 35px;
+$xl: 45px;
+$short-sect: 330px;
+
+.bg-gris{
+	background-color: $gris;
+}
+
+/****************HEADER****************/
+header.bg-gris p{
+	padding-top: $sm;
+}
+header.container{
+	margin-top: $md;
+	margin-bottom: $sm;
+}
+header.container .clock{
+	margin-top: $sm;
+}
+header.bg-gris li{
+	padding: $xs;
+	margin: 0 $xs;
+	margin-bottom: -10px;
+	background-color: $color;
+	color: #000;
+	height: 100%;
+	font-weight: bold;
+}
+header.bg-gris .active{
+	padding: $xs;
+	margin: 0 $xs;
+	margin-bottom: -10px;
+	background-color: $color;
+	color: #fff;
+	height: 100%;
+}
+
+header, section{
+	font-family: Lato;
+	margin-top: $md;
+}
+section{
+	min-height:$short-sect;
+}
+
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	padding-left: $xs;
+}
+a{
+	text-decoration: none;
+}
+
+img{
+	max-width:100%;
+}
+.slide-clients{
+	background-size: auto;
+	background-image: url(../images/client-bg.jpg);
+	margin-top: $sm;
+	position: relative;
+}
+	.fixed-position{
+	position: relative;
+
+	}
+
+section.latest-bestseller-sale {
+
+}
+section.latest-bestseller-sale .price{
+	color: $color;
+}
+section.latest-bestseller-sale .price>span{
+	color: $gris-rata;
+	text-decoration: line-through;
+}
+
+
+
+
+/*******************FOOTER****************/
+footer.footer{
+	background-color: $gris-rata;
+	padding-top: $sm;
+	padding-bottom: $sm;
+}
+footer.footer p{
+	color: #fff;
+}
+footer.footer p>span{
+	color: $color;
+}
+footer i.fa{
+	margin-right: $sm;
+}
+footer a{
+	text-decoration: none;
+	color: inherit !important;
+}
+
+
+
+
+/***********CONTACT US************/
+#contact-us{
+	position: relative;
+}
+#contact-us img.header-image{
+	max-width: 100%;
+	height: 600px;
+}
+#contact-us .header-image{
+	height: 500px;
+}
+#contact-us .header-image h1, p{
+	min-width: 100%;
+	height: 50%;
+	position: float;
+	margin-top: -200px;
+	color: $gris-rata;
+	shadow-text: $thin $thin #000;
+}
+#contact-us .form-control{
+	background-color: $gris;
+	position: relative;
+	width: 45%;
+	margin-right: $md;
+}
+#contact-us textarea{
+	background-color: $gris;
+	position: absolute;
+	width: 95% !important;
+}
+#contact-us input.col-sm-6{
+	padding-left: $sm !important;
+}
+#contact-us button{
+	float: right;
+	color: #fff !important;
+	background-color: $gris-rata !important;
+	margin-right: 5%;
+}
+#contact-us .contact-us{
+	color: #fff;
+	background-color: $color !important; 
+	z-index: 100000;
+	width: 400px;
+}
+/******** /FIN CONTACT-US*******/
