@@ -2,7 +2,7 @@ $color: #EA8383;
 $gris: #EBEBED;
 $gris-rata: #333;
 $thin: 3px;
-$border-wide: 5px;
+$pad-border: 5px;
 $xs: 7px;
 $sm: 13px;
 $md: 27px;
@@ -29,12 +29,11 @@ header.bg-gris li{
 	padding: $xs;
 	margin: 0 $xs;
 	margin-bottom: -10px;
-	background-color: $color;
 	color: #000;
 	height: 100%;
 	font-weight: bold;
 }
-header.bg-gris .active{
+header.bg-gris .active-color{
 	padding: $xs;
 	margin: 0 $xs;
 	margin-bottom: -10px;
@@ -45,7 +44,6 @@ header.bg-gris .active{
 
 header, section{
 	font-family: Lato;
-	margin-top: $md;
 }
 section{
 	min-height:$short-sect;
@@ -61,7 +59,10 @@ li{
 a{
 	text-decoration: none;
 }
-
+p{
+	padding-left: $xs;
+	padding-right: $xs;
+}
 img{
 	max-width:100%;
 }
@@ -70,24 +71,49 @@ img{
 	background-image: url(../images/client-bg.jpg);
 	margin-top: $sm;
 	position: relative;
+	background-image: no-repeat !important;
+	background-attachment: fixed;
+	background-position: centered;
 }
 	.fixed-position{
+	position: absolute;
+	top: 40%;
+	left: 0;
+	}
+	.fixed-position img{
 	position: relative;
-
+	height: 90%;
+	width: 90%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 	}
 
-section.latest-bestseller-sale {
-
+.bg-image{
+	padding: $pad-border;
+	border: solid $gris 2px;
 }
+.add-to-cart-btn{
+	width: 65%;
+	padding: $xs $xs $xs $xs;
+	background-color: $gris-rata;
+	color: #fff !important;
+}
+
 section.latest-bestseller-sale .price{
 	color: $color;
 }
 section.latest-bestseller-sale .price>span{
-	color: $gris-rata;
+	color: $gris;
 	text-decoration: line-through;
 }
 
-
+section.clothing-equipments-jewellery .price{
+	color: $color;
+}
+section.clothing-equipments-jewellery .price>span{
+	color: $gris;
+	text-decoration: line-through;
+}
 
 
 /*******************FOOTER****************/

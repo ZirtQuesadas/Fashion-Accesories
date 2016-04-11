@@ -16,12 +16,11 @@ header.bg-gris li {
   padding: 7px;
   margin: 0 7px;
   margin-bottom: -10px;
-  background-color: #EA8383;
   color: #000;
   height: 100%;
   font-weight: bold; }
 
-header.bg-gris .active {
+header.bg-gris .active-color {
   padding: 7px;
   margin: 0 7px;
   margin-bottom: -10px;
@@ -30,8 +29,7 @@ header.bg-gris .active {
   height: 100%; }
 
 header, section {
-  font-family: Lato;
-  margin-top: 27px; }
+  font-family: Lato; }
 
 section {
   min-height: 330px; }
@@ -46,6 +44,10 @@ li {
 a {
   text-decoration: none; }
 
+p {
+  padding-left: 7px;
+  padding-right: 7px; }
+
 img {
   max-width: 100%; }
 
@@ -53,16 +55,45 @@ img {
   background-size: auto;
   background-image: url(../images/client-bg.jpg);
   margin-top: 13px;
-  position: relative; }
+  position: relative;
+  background-image: no-repeat !important;
+  background-attachment: fixed;
+  background-position: centered; }
 
 .fixed-position {
-  position: relative; }
+  position: absolute;
+  top: 40%;
+  left: 0; }
+
+.fixed-position img {
+  position: relative;
+  height: 90%;
+  width: 90%;
+  margin-top: 1%;
+  margin-bottom: 1%; }
+
+.bg-image {
+  padding: 5px;
+  border: solid #EBEBED 2px; }
+
+.add-to-cart-btn {
+  width: 65%;
+  padding: 7px 7px 7px 7px;
+  background-color: #333;
+  color: #fff !important; }
 
 section.latest-bestseller-sale .price {
   color: #EA8383; }
 
 section.latest-bestseller-sale .price > span {
-  color: #333;
+  color: #EBEBED;
+  text-decoration: line-through; }
+
+section.clothing-equipments-jewellery .price {
+  color: #EA8383; }
+
+section.clothing-equipments-jewellery .price > span {
+  color: #EBEBED;
   text-decoration: line-through; }
 
 /*******************FOOTER****************/
